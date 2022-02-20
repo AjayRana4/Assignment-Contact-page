@@ -1,15 +1,26 @@
 {
   "name": "assignment-3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    ,"serve": "browser-sync start --server --files 'dist/css/*.css, **/*.html'"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server --files 'dist/css/*.css, **/*.html'"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.7"
-  }
+  },
+  "dependencies": {
+    "it": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjayRana4/Assignment-Contact-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AjayRana4/Assignment-Contact-page/issues"
+  },
+  "homepage": "https://github.com/AjayRana4/Assignment-Contact-page#readme",
+  "description": ""
 }
